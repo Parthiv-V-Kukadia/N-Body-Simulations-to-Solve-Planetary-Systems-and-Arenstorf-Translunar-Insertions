@@ -1,1 +1,3 @@
-# N-Body-Simulations-to-Solve-Planetary-Systems-and-Arenstorf-Translunar-Insertions
+# N-Body Simulations to Solve Planetary Systems and Arenstorf Translunar Insertions
+This project describes the implementation and analysis of the Forward Euler (FE), Heun, Kick-Drift-Kick (KDK), and RK4 numerical methods to simulate various N-body problems with the goal of being able to solve for Arenstorf orbits to enable a Translunar Insertion (TLI). 
+After analyzing the stability regions of these numerical methods, examining the effect that time step size and truncation error have on various simulations, and validating their accuracy by comparing their results to real planetary orbit data from JPL, the stable TLI used by the Apollo missions was solved for and replicated accurately.
